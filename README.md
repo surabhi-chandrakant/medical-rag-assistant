@@ -121,7 +121,7 @@ cd ../rag_app
 python3 build_index.py              # re-embeds the corpus with the new model
 ```
 
-## Known limitations (be honest with yourself about these)
+## Known limitations 
 
 - **Retrieval quality is bounded by training from scratch on a small model
   and small compute budget**, mitigated by the hybrid (embedding + TF-IDF)
@@ -163,5 +163,4 @@ Groq's free tier can't serve custom weights. Your options, in order of effort:
 
 I did not build the LoRA training script here since it requires a GPU this
 sandbox doesn't have, and it would run on synthetic/unverified assumptions
-about your target model choice and Colab setup. Say the word if you want it
-and I'll write it against a specific model + your compute target.
+about  target model choice and Colab setup. 
