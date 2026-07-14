@@ -1,0 +1,8 @@
+# Embedding model training / inference
+torch>=2.0
+tokenizers>=0.15
+
+# RAG app
+numpy>=1.24
+streamlit>=1.30
+requests>=2.31
