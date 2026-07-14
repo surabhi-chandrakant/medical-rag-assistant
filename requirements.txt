@@ -6,3 +6,4 @@ tokenizers>=0.15
 numpy>=1.24
 streamlit>=1.30
 requests>=2.31
+scikit-learn>=1.3
