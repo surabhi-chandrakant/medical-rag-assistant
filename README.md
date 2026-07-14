@@ -4,6 +4,8 @@ A retrieval-augmented generation (RAG) app for medical Q&A, built on:
 1. A **domain embedding model**, trained from scratch on real medical Q&A data (MedQuAD).
 2. A **base LLM served via the Groq API free tier** for grounded answer generation.
 
+## Live Demo :  https://medical-rag-assistant-personal.streamlit.app/ 
+
 ## Read this before you assume it's a standard fine-tuned-SBERT setup
 
 This project was built inside a sandboxed environment with **no access to
